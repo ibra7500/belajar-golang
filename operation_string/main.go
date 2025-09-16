@@ -25,4 +25,6 @@ func main() {
 	// Ganti bagian string
 	newText := strings.ReplaceAll(text, "Hello World", "Test Golang")
 	fmt.Println("Replaced Characters: ", newText)
+	oldText := strings.ReplaceAll(newText, "Test Golang", "Pembaruan")
+	fmt.Println("Replaced Characters: ", oldText)
 }
