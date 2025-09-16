@@ -24,4 +24,9 @@ func main() {
 			break //keluar dari loop
 		}
 	}
+
+	fruits := [5]string {"Apel", "Jeruk", "Cherry", "Melon", "Semangka"}
+	for index, value := range fruits {
+		fmt.Println("Item buah ke-", index, " = ", value)
+	}
 }
